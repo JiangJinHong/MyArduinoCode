@@ -1,5 +1,5 @@
 #include <Wire.h>
- 
+
 void setup() {
   Wire.begin(8);                // 加入i2c总线，设置从机地址为#8
   Wire.onReceive(receiveEvent); // 注册接受到主机字符的事件
