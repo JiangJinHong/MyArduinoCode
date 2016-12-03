@@ -20,7 +20,7 @@
 
 //WEBSITE     
 #define HOST_NAME    "172.20.10.13"             //可改成自己的服务器地址和端口
-#define HOST_PORT   (3005)
+#define HOST_PORT   (3008)
 
 //3,传感器值的设置 
 float sensor_tem, sensor_hum, sensor_lux;                    //传感器温度、湿度、光照   
